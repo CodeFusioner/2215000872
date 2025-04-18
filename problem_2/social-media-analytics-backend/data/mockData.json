@@ -1,0 +1,54 @@
+{
+  "users": {
+    "1": "John Doe",
+    "2": "Jane Doe",
+    "3": "Alice Smith",
+    "4": "Bob Johnson",
+    "5": "Charlie Brown",
+    "6": "Diana White",
+    "7": "Edward Davis",
+    "8": "Fiona Miller",
+    "9": "George Wilson",
+    "10": "Helen Moore"
+  },
+  "posts": [
+    {
+      "id": 1,
+      "userid": 1,
+      "content": "Post about ant",
+      "comments": [
+        { "id": 1, "postid": 1, "content": "Nice post!" },
+        { "id": 2, "postid": 1, "content": "Interesting!" }
+      ]
+    },
+    {
+      "id": 2,
+      "userid": 1,
+      "content": "Post about elephant",
+      "comments": []
+    },
+    {
+      "id": 3,
+      "userid": 2,
+      "content": "Post about ocean",
+      "comments": [
+        { "id": 3, "postid": 3, "content": "Great view!" }
+      ]
+    },
+    {
+      "id": 4,
+      "userid": 3,
+      "content": "Post about monkey",
+      "comments": [
+        { "id": 4, "postid": 4, "content": "So cute!" },
+        { "id": 5, "postid": 4, "content": "Love it!" }
+      ]
+    },
+    {
+      "id": 5,
+      "userid": 4,
+      "content": "Post about zebra",
+      "comments": []
+    }
+  ]
+}
